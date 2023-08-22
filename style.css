@@ -6,4 +6,27 @@
 body {
   background-color: #222;
   color: white;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1000px;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  background-color: #3498db;
+  margin: 1px;
+  box-sizing: border-box;
 }
